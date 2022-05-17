@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.mainactivity.FiltersFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/select_one_or_more_filters"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="23dp"
+        android:text="@string/type"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/typeRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="23dp">
+
+        <RadioButton
+            android:id="@+id/rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/for_rent"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/for_sale"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <RadioButton
+            android:id="@+id/both"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/both"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/College"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/clgInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        app:endIconTint="#312E5F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="10dp"
+        app:boxBackgroundColor="#F1F3FD"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:errorIconDrawable="@null">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/clgDropDown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textAutoComplete"
+            android:lines="1"
+            android:padding="13dp"
+            android:textColor="#312E5F"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="23dp"
+        android:text="@string/category"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/tagsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="5dp"
+        app:chipSpacing="2dp"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/Stationery"
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/stationery"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/Electronics"
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/electronics"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/Instruments"
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/instruments"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/Books"
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/books"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/Sports"
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/sports"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"/>
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="23dp"
+        android:text="@string/price_range"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/priceRangeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="5dp"
+        app:chipSpacing="2dp"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/_0_199"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/_200_399"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/_400_599"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/_600_799"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+
+        <com.google.android.material.chip.Chip
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/_800_999"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"/>
+
+
+        <com.google.android.material.chip.Chip
+            app:chipBackgroundColor="@color/chip_bg_color_filters"
+            app:chipStrokeColor="@color/white"
+            app:chipStrokeWidth="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:text="@string/_1000"
+            android:textColor="@color/chip_text_color_filters"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelBtn"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#E3386A"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            app:cornerRadius="30dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginEnd="40dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/applyBtn"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/white"
+            android:backgroundTint="#E3386A"
+            android:text="@string/apply"
+            app:cornerRadius="30dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>
