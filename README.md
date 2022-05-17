@@ -55,7 +55,8 @@ git checkout -b 'name_of_your_new_branch'
 open project in Android studio and do the needful changes
 	
 <img src="https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg" width="300" height="700">	
-
+<img src="https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg" width="300" height="700">
+	
 ![1](https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg)
 ![2](https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg)
 ![3](https://user-images.githubusercontent.com/56028723/168736262-90c30700-d371-4a0b-acbc-f36a26568633.jpg)
