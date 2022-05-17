@@ -55,12 +55,11 @@ git checkout -b 'name_of_your_new_branch'
 open project in Android studio and do the needful changes
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg" width="300" height="700">	
-<img src="https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg" width="300" height="700">
-<img src="" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg" width="300" height="700">	
+	<img src="https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg" width="300" height="700">
 	<img src="https://user-images.githubusercontent.com/56028723/168736262-90c30700-d371-4a0b-acbc-f36a26568633.jpg" width="300" height="700">
 	<img src="https://user-images.githubusercontent.com/56028723/168736267-77e06c6e-dab2-4cde-b234-cae10733811d.jpg" width="300" height="700">
-<!-- 	<img src="https://user-images.githubusercontent.com/56028723/168736272-2c0c3051-8043-492c-8d7d-4ca5e1515ab6.jpg" width="300" height="700"> -->
+	<img src="https://user-images.githubusercontent.com/56028723/168736272-2c0c3051-8043-492c-8d7d-4ca5e1515ab6.jpg" width="300" height="700">
 	<img src="https://user-images.githubusercontent.com/56028723/168736275-96fd1c88-be90-4103-8563-fb8e7b466ca7.jpg" width="300" height="700">
 	<img src="https://user-images.githubusercontent.com/56028723/168736275-96fd1c88-be90-4103-8563-fb8e7b466ca7.jpg" width="300" height="700">
 	<img src="https://user-images.githubusercontent.com/56028723/168736278-ff03925b-3a41-467f-aea9-d47063b4266d.jpg" width="300" height="700">
