@@ -57,20 +57,32 @@ open project in Android studio and do the needful changes
 <p float="left">
 <img src="https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg" width="300" height="700">	
 <img src="https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg" width="300" height="700">
+<img src="" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736262-90c30700-d371-4a0b-acbc-f36a26568633.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736267-77e06c6e-dab2-4cde-b234-cae10733811d.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736272-2c0c3051-8043-492c-8d7d-4ca5e1515ab6.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736275-96fd1c88-be90-4103-8563-fb8e7b466ca7.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736275-96fd1c88-be90-4103-8563-fb8e7b466ca7.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736278-ff03925b-3a41-467f-aea9-d47063b4266d.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736279-26e3dd6c-67bf-4ff6-8bff-0f68736978eb.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736283-7452ca7d-11af-4775-bf70-61a929401d4d.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736286-9fe4e198-cc81-4d3b-bb22-fe053413bb8f.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736290-873788c8-b3a2-4b1b-b174-8f7aac1eaa27.jpg" width="300" height="700">
+	<img src="https://user-images.githubusercontent.com/56028723/168736293-84c208b1-ac15-485a-8c72-9e57f2d4ef11.jpg" width="300" height="700">
 </p>
 	
 	
-![1](https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg)
-![2](https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg)
-![3](https://user-images.githubusercontent.com/56028723/168736262-90c30700-d371-4a0b-acbc-f36a26568633.jpg)
-![4](https://user-images.githubusercontent.com/56028723/168736267-77e06c6e-dab2-4cde-b234-cae10733811d.jpg)
-![5](https://user-images.githubusercontent.com/56028723/168736272-2c0c3051-8043-492c-8d7d-4ca5e1515ab6.jpg)
-![6](https://user-images.githubusercontent.com/56028723/168736275-96fd1c88-be90-4103-8563-fb8e7b466ca7.jpg)
-![7](https://user-images.githubusercontent.com/56028723/168736278-ff03925b-3a41-467f-aea9-d47063b4266d.jpg)
-![8](https://user-images.githubusercontent.com/56028723/168736279-26e3dd6c-67bf-4ff6-8bff-0f68736978eb.jpg)
+<!-- ![1](https://user-images.githubusercontent.com/56028723/168736245-10acdf35-90d9-40ed-9b72-83c54f28de24.jpg)
+![2](https://user-images.githubusercontent.com/56028723/168736258-180be7d2-a437-4f2f-9d9a-7891d250183b.jpg) -->
+<!-- ![3](https://user-images.githubusercontent.com/56028723/168736262-90c30700-d371-4a0b-acbc-f36a26568633.jpg)
+![4](https://user-images.githubusercontent.com/56028723/168736267-77e06c6e-dab2-4cde-b234-cae10733811d.jpg) -->
+<!-- ![5](https://user-images.githubusercontent.com/56028723/168736272-2c0c3051-8043-492c-8d7d-4ca5e1515ab6.jpg) -->
+<!-- ![6](https://user-images.githubusercontent.com/56028723/168736275-96fd1c88-be90-4103-8563-fb8e7b466ca7.jpg)
+![7](https://user-images.githubusercontent.com/56028723/168736278-ff03925b-3a41-467f-aea9-d47063b4266d.jpg) -->
+<!-- ![8](https://user-images.githubusercontent.com/56028723/168736279-26e3dd6c-67bf-4ff6-8bff-0f68736978eb.jpg)
 ![9](https://user-images.githubusercontent.com/56028723/168736283-7452ca7d-11af-4775-bf70-61a929401d4d.jpg)
 ![10](https://user-images.githubusercontent.com/56028723/168736286-9fe4e198-cc81-4d3b-bb22-fe053413bb8f.jpg)
 ![11](https://user-images.githubusercontent.com/56028723/168736290-873788c8-b3a2-4b1b-b174-8f7aac1eaa27.jpg)
-![12](https://user-images.githubusercontent.com/56028723/168736293-84c208b1-ac15-485a-8c72-9e57f2d4ef11.jpg)
+![12](https://user-images.githubusercontent.com/56028723/168736293-84c208b1-ac15-485a-8c72-9e57f2d4ef11.jpg) -->
 
 
