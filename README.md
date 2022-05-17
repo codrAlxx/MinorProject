@@ -10,9 +10,6 @@ Well then we've got your back! Presenting **BechDo**,
 
 So what are you guys waiting for! **BechDo pe BechDo** ya _Khareed Lo_ 🙃
 
-`Join Code Sauce discord server for project updates, weekly meetups and insights.`
-
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/32HyKKzjSr) [![Youtube](https://img.shields.io/badge/Youtube-FF4747?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCCPwX0xdVigPTksRMnpxr6g)
 
 ## Tech Stack
 
@@ -36,23 +33,6 @@ So what are you guys waiting for! **BechDo pe BechDo** ya _Khareed Lo_ 🙃
   
 - `Help` :  Users can check out this FAQs section in the app to clear out their queries.  
 
-## Maintainers
-
-<table>
-<tr>
-  
-<td align="center"><a href="https://github.com/SHITIZ-AGGARWAL"><img src="https://user-images.githubusercontent.com/53532851/120942660-14795200-c748-11eb-8e5d-1f0924f1ed67.jpg?s=100" width="120px;" alt=""  style="border-radius: 50px" /><br /><sub><b>Shitiz Aggarwal</b></sub></a><br /><p>Product Designer/Web</p></td>
-
-<td align="center"><a href="https://github.com/Acash512"><img src="https://user-images.githubusercontent.com/53511962/120997371-c2b2e500-c7a4-11eb-9269-8ea93264414a.jpg" width="120px;" alt=""  style="border-radius: 50px" /><br /><sub><b>Aakash Gupta</b></sub></a><br /><p>Lead Android Developer</p></td>
-
- <td align="center"><a href="https://github.com/nidhisingh-1"><img src="https://avatars.githubusercontent.com/u/61702147?v=4" width="120px;" alt=""  style="border-radius: 50px" /><br /><sub><b>Nidhi Singh</b></sub></a><br /><p>Android/Web Developer</p></td>
-
-<td align="center"><a href="https://github.com/yatharthmago01"><img src="https://user-images.githubusercontent.com/53532851/120995152-c2b1e580-c7a2-11eb-8c34-910f87bc2cf1.png" width="120px;" alt=""  style="border-radius: 50px" /><br /><sub><b>Yatharth Mago</b></sub></a><br /><p>Android/Web Developer</p></td>
-  
-<td align="center"><a href="https://github.com/titiksha01"><img src="https://avatars.githubusercontent.com/u/57208352?s=400&u=fa23251169a498c0a5fbcff5b76a149597abc9ab&v=4" width="120px;" alt=""  style="border-radius: 50px" /><br /><sub><b>Titiksha Sharma</b></sub></a><br /><p>Flutter/Web Developer</p></td>
-
-</tr>
-</table>
 
 ## Setting up the project and Installation
 
@@ -74,29 +54,4 @@ git checkout -b 'name_of_your_new_branch'
 ```
 open project in Android studio and do the needful changes
 
-## Branches
-
-The repository has the following permanent branches:
-
- * **main** This contains the code which has been released.
-
- * **develop** This contains the latest code. All the contributing PRs must be sent to this branch. When we want to release the next version of the app, this branch is merged into the `main` branch.
-
-
-## Contributing
-Please read our [Contributing guidelines](https://github.com/Code-Sauce-Official/BechDo-Application/blob/main/docs/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Code-Sauce-Official/BechDo-Application/blob/main/docs/CodeOfConduct.md)
-
-If you are new to open source check out [How to Start](https://github.com/Code-Sauce-Official/BechDo-Application/blob/main/docs/HowToStart.md)
-
-Thanks to these wonderful people ✨✨:
-
-<table>
-	<tr>
-		<td>
-			<a href="https://github.com/Code-Sauce-Official/BechDo-Application/graphs/contributors">
-  				<img src="https://contrib.rocks/image?repo=Code-Sauce-Official/BechDo-Application" />
-			</a>
-		</td>
-	</tr>
-</table>
 
